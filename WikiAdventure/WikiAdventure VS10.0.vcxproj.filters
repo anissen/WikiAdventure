@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{25352e66-1dfb-4aba-832e-b7abcd8f3f90}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{0b178ad4-cb30-412c-a3ee-5b9e0c764860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{42685515-f71e-4f41-9383-09344a2357aa}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Doxygen">
+      <UniqueIdentifier>{f8f34920-26d0-4851-9d1c-56cfbf91d952}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="SDL">
+      <UniqueIdentifier>{1a027059-5f51-486c-bcda-6388d2a8c800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\Engine">
+      <UniqueIdentifier>{1373950a-829a-46e9-8f14-549291ff9fb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\Game States">
+      <UniqueIdentifier>{51183559-c1cb-4bcc-8101-496f3cebe182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\Screen Objects">
+      <UniqueIdentifier>{588c885b-877d-4c8e-a059-8d6df59991e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDL\Object Lists">
+      <UniqueIdentifier>{7ae34b2e-c408-4d11-9b59-0370ddb0d793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reader">
+      <UniqueIdentifier>{154b5fd5-c556-475b-bb01-7755e9a18912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reader\Game Framework">
+      <UniqueIdentifier>{5ea73797-0e21-41be-be57-693aaa9aaeee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reader\Internet">
+      <UniqueIdentifier>{a4cddfe6-3461-4d01-b62e-03d7506ca666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{c7644c03-564b-4cba-8d6d-d1a4134719f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Project\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\LuaScriptHandler.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLFontHandler.cpp">
+      <Filter>SDL</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\Engine.cpp">
+      <Filter>SDL\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\EngineMain.cpp">
+      <Filter>SDL\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\Graphics.cpp">
+      <Filter>SDL\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLBaseState.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateGameList.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateGameMenu.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateHandler.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateLoading.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateLoadingGame.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateLocation.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateMessageBox.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateQuestionBox.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateShowPicture.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLStateShowText.cpp">
+      <Filter>SDL\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLBaseObject.cpp">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLBaseTextObject.cpp">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLCenterTextObject.cpp">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLDebugOverlay.cpp">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLDebugTextObject.cpp">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLGameDialogObject.cpp">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLGameItemObject.cpp">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLHoverObject.cpp">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLMultilineTextObject.cpp">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLDebugQueueList.cpp">
+      <Filter>SDL\Object Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLDialogList.cpp">
+      <Filter>SDL\Object Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLObjectQueueList.cpp">
+      <Filter>SDL\Object Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLSizedQueueList.cpp">
+      <Filter>SDL\Object Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WA-SDL\SDLTextSelectionList.cpp">
+      <Filter>SDL\Object Lists</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\DialogHandler.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\DialogObject.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\FileHandler.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\GameHandler.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\GameObject.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\ImageHandler.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\ItemHandler.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\ItemObject.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\LocationHandler.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\LocationObject.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\WikiContent.cpp">
+      <Filter>Reader\Game Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Project\WebPage.cpp">
+      <Filter>Reader\Internet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Project\LuaFunctions.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\LuaScriptHandler.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\Globals.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Log\LogHandler.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\TestOutput.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\Util.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLFontHandler.h">
+      <Filter>SDL</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\Engine.h">
+      <Filter>SDL\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\EngineMain.h">
+      <Filter>SDL\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\ExceptionClasses.h">
+      <Filter>SDL\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\Globals.h">
+      <Filter>SDL\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\Graphics.h">
+      <Filter>SDL\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\Singleton.h">
+      <Filter>SDL\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLBaseState.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateGameList.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateGameMenu.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateHandler.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateLoading.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateLoadingGame.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateLocation.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateMessageBox.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateQuestionBox.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateShowPicture.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLStateShowText.h">
+      <Filter>SDL\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLBaseInterface.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLBaseObject.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLBaseTextObject.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLCenterTextObject.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLDebugOverlay.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLDebugTextObject.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLGameDialogObject.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLGameItemObject.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLHoverObject.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLMultilineTextObject.h">
+      <Filter>SDL\Screen Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLDebugQueueList.h">
+      <Filter>SDL\Object Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLDialogList.h">
+      <Filter>SDL\Object Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLObjectQueueList.h">
+      <Filter>SDL\Object Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLSizedQueueList.h">
+      <Filter>SDL\Object Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLTextSelectionList.h">
+      <Filter>SDL\Object Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WA-SDL\SDLUIContainerInterface.h">
+      <Filter>SDL\Object Lists</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\DialogHandler.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\DialogObject.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\FileHandler.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\GameHandler.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\GameObject.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\IBaseObject.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\ImageHandler.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\ItemHandler.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\ItemObject.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\LocationHandler.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\LocationObject.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\WikiContent.h">
+      <Filter>Reader\Game Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Project\WebPage.h">
+      <Filter>Reader\Internet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Project\MainPage.dox">
+      <Filter>Doxygen</Filter>
+    </None>
+    <None Include="Source\Misc\WA-Icon.ico">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Misc\icon.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

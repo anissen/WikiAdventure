@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>WikiAdventure</ProjectName>
+    <ProjectGuid>{AF27621E-8B01-472D-BD38-B12F6D514BF6}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Bin/Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\Obj/Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Bin/Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Obj/Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>Libs\SDL-1.2.8\include;Libs\SDL_image\include;Libs\SDL_ttf\include;Libs\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Obj/Release/WikiAdventure.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Obj/Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Obj/Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Obj/Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Libs\SDL-1.2.8\lib\SDLmain.lib;Libs\SDL-1.2.8\lib\sdl.lib;Libs\SDL_image\lib\SDL_image.lib;Libs\SDL_ttf\lib\SDL_ttf.lib;Libs\Lua\Lib\*;odbc32.lib;odbccp32.lib;wininet.lib;urlmon.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Bin/Release/WikiAdventure.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>.\Bin/Release/WikiAdventure.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Obj/Release/WikiAdventure.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0406</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>Libs\SDL-1.2.8\include;Libs\SDL_image\include;Libs\SDL_ttf\include;Libs\Lua;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>.\Obj/Debug/WikiAdventure.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Obj/Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Obj/Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Obj/Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>Libs\SDL-1.2.8\lib\SDLmain.lib;Libs\SDL-1.2.8\lib\sdl.lib;Libs\SDL_image\lib\SDL_image.lib;Libs\SDL_ttf\lib\SDL_ttf.lib;Libs\Lua\Lib\*;odbc32.lib;odbccp32.lib;wininet.lib;urlmon.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Bin/Debug/WikiAdventure.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Bin/Debug/WikiAdventure.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <TypeLibraryName>.\Bin/Debug/WikiAdventure.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0406</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Project\Main.cpp" />
+    <ClCompile Include="Source\Project\LuaScriptHandler.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLFontHandler.cpp" />
+    <ClCompile Include="Source\WA-SDL\Engine.cpp" />
+    <ClCompile Include="Source\WA-SDL\EngineMain.cpp" />
+    <ClCompile Include="Source\WA-SDL\Graphics.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLBaseState.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateGameList.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateGameMenu.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateHandler.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateLoading.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateLoadingGame.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateLocation.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateMessageBox.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateQuestionBox.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateShowPicture.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLStateShowText.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLBaseObject.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLBaseTextObject.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLCenterTextObject.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLDebugOverlay.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLDebugTextObject.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLGameDialogObject.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLGameItemObject.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLHoverObject.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLMultilineTextObject.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLDebugQueueList.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLDialogList.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLObjectQueueList.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLSizedQueueList.cpp" />
+    <ClCompile Include="Source\WA-SDL\SDLTextSelectionList.cpp" />
+    <ClCompile Include="Source\Project\DialogHandler.cpp" />
+    <ClCompile Include="Source\Project\DialogObject.cpp" />
+    <ClCompile Include="Source\Project\FileHandler.cpp" />
+    <ClCompile Include="Source\Project\GameHandler.cpp" />
+    <ClCompile Include="Source\Project\GameObject.cpp" />
+    <ClCompile Include="Source\Project\ImageHandler.cpp" />
+    <ClCompile Include="Source\Project\ItemHandler.cpp" />
+    <ClCompile Include="Source\Project\ItemObject.cpp" />
+    <ClCompile Include="Source\Project\LocationHandler.cpp" />
+    <ClCompile Include="Source\Project\LocationObject.cpp" />
+    <ClCompile Include="Source\Project\WikiContent.cpp" />
+    <ClCompile Include="Source\Project\WebPage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Project\LuaFunctions.h" />
+    <ClInclude Include="Source\Project\LuaScriptHandler.h" />
+    <ClInclude Include="Source\Project\Globals.h" />
+    <ClInclude Include="Source\Log\LogHandler.h" />
+    <ClInclude Include="Source\Project\TestOutput.h" />
+    <ClInclude Include="Source\Project\Util.h" />
+    <ClInclude Include="Source\WA-SDL\SDLFontHandler.h" />
+    <ClInclude Include="Source\WA-SDL\Engine.h" />
+    <ClInclude Include="Source\WA-SDL\EngineMain.h" />
+    <ClInclude Include="Source\WA-SDL\ExceptionClasses.h" />
+    <ClInclude Include="Source\WA-SDL\Globals.h" />
+    <ClInclude Include="Source\WA-SDL\Graphics.h" />
+    <ClInclude Include="Source\WA-SDL\Singleton.h" />
+    <ClInclude Include="Source\WA-SDL\SDLBaseState.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateGameList.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateGameMenu.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateHandler.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateLoading.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateLoadingGame.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateLocation.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateMessageBox.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateQuestionBox.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateShowPicture.h" />
+    <ClInclude Include="Source\WA-SDL\SDLStateShowText.h" />
+    <ClInclude Include="Source\WA-SDL\SDLBaseInterface.h" />
+    <ClInclude Include="Source\WA-SDL\SDLBaseObject.h" />
+    <ClInclude Include="Source\WA-SDL\SDLBaseTextObject.h" />
+    <ClInclude Include="Source\WA-SDL\SDLCenterTextObject.h" />
+    <ClInclude Include="Source\WA-SDL\SDLDebugOverlay.h" />
+    <ClInclude Include="Source\WA-SDL\SDLDebugTextObject.h" />
+    <ClInclude Include="Source\WA-SDL\SDLGameDialogObject.h" />
+    <ClInclude Include="Source\WA-SDL\SDLGameItemObject.h" />
+    <ClInclude Include="Source\WA-SDL\SDLHoverObject.h" />
+    <ClInclude Include="Source\WA-SDL\SDLMultilineTextObject.h" />
+    <ClInclude Include="Source\WA-SDL\SDLDebugQueueList.h" />
+    <ClInclude Include="Source\WA-SDL\SDLDialogList.h" />
+    <ClInclude Include="Source\WA-SDL\SDLObjectQueueList.h" />
+    <ClInclude Include="Source\WA-SDL\SDLSizedQueueList.h" />
+    <ClInclude Include="Source\WA-SDL\SDLTextSelectionList.h" />
+    <ClInclude Include="Source\WA-SDL\SDLUIContainerInterface.h" />
+    <ClInclude Include="Source\Project\DialogHandler.h" />
+    <ClInclude Include="Source\Project\DialogObject.h" />
+    <ClInclude Include="Source\Project\FileHandler.h" />
+    <ClInclude Include="Source\Project\GameHandler.h" />
+    <ClInclude Include="Source\Project\GameObject.h" />
+    <ClInclude Include="Source\Project\IBaseObject.h" />
+    <ClInclude Include="Source\Project\ImageHandler.h" />
+    <ClInclude Include="Source\Project\ItemHandler.h" />
+    <ClInclude Include="Source\Project\ItemObject.h" />
+    <ClInclude Include="Source\Project\LocationHandler.h" />
+    <ClInclude Include="Source\Project\LocationObject.h" />
+    <ClInclude Include="Source\Project\WikiContent.h" />
+    <ClInclude Include="Source\Project\WebPage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Project\MainPage.dox" />
+    <None Include="Source\Misc\WA-Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\Misc\icon.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

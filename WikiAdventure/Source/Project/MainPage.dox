@@ -1,0 +1,82 @@
+// Setup main documentation page
+
+/** @mainpage
+
+@section About
+An experimental adventure game framework based on the Wiki principles, where everyone can edit, add and remove contents. 
+
+
+@subsection Resources
+- <a href="http://gpwiki.org/index.php/Creating_Adventure_Games_Collaboratively">Original outline of the idea.</a>
+- <a href="http://gpwiki.org/index.php/Wiki_Based_Dialog_System">Website that contains the dialog data.</a>
+- <a href="http://www.gpwiki.org/forums/viewtopic.php?t=1296">A forum thread discussing the project.</a>.
+
+
+@subsection ssPreVersions Previous Versions
+Notice: <i>WikiAdventure</i> was entitled <i>WikiDialog Reader</i> prior to version 0.4.
+
+
+- <b>WikiAdventure Version 0.4</b><br>
+ xx. June 2005.<br><br>
+ Download: <a href="">WikiAdventure 0.4 [xx kB].</a><br><br>
+ Change log:
+ - The source code has grown to more than six times the size of version 0.3, so listing the changes really dosn't make any sense.
+
+- <b>WikiDialog Reader Version 0.3</b><br>
+ 3. June 2005.<br><br>
+ Download: <a href="http://gpwiki.org/images/WikiDialogReader_0.3.zip">WikiDialog Reader 0.3 [2234 kB].</a><br><br>
+ Change log:
+ - Added Doxygen documentation.
+ - Changed the directory structure to the structure outlined <a href="http://gpwiki.org/index.php/C:Empty_DirectX_9_Project">here</a>.
+ - Added project solution files for Visual C++ 6.0, Visual C++ 7.0 (.NET 2002) and Visual C++ 9.0 (.NET 2005 Express Beta 1).
+ - Added a function to dump the entire dialog structure to a XML file. See CDialogHandler::DumpToXML().
+ - Implemented dialog that span several different subpages.
+ - Fixed a text seaching bug in GetTaggedText() and GetTaggedTextArray() in Util.h.
+ - Added new functions to Util.h; RemoveFromText(), ReplaceInText(), GetAfterLast() and GetUntilLast();
+ - Added feature that makes it possible to launch the application directly from clicking a website-link.
+ - Added a feature to download files from the internet to a local directory. Files already in the local directory will not be downloaded again.
+ - Some minor tweaks and additions. 
+
+- <b>WikiDialog Reader Version 0.2</b><br>
+ 28. May 2005.<br><br>
+ Download: <a href="http://www.gpwiki.org/index.php/Files:WikiDialogReader_0.2.zip">WikiDialog Reader 0.2 [22.8 kB].</a><br><br>
+ Change log:
+ - Cleaned up the code.
+ - Added the CDialogHandler class.
+ - Dialog block can have an ID-tag.
+ - Reading dialog parameters such as "speaker", "type" etc.. 
+ - Being able to load multiple dialog blocks on each page.
+ - Being able to call other block of dialog from scripts. *
+ - Dialog can be spead across several different subpages. *
+ - Basic scripting using Lua scripts to handle events. *<br><br>Star (*) means supported, but not yet implemented.
+
+- <b>WikiDialog Reader Version 0.1</b><br>
+ 26. May 2005.<br><br>
+ <a href="http://www.gpwiki.org/index.php/Files:WikiDialogReader.zip">WikiDialog Reader 0.1 [18.5 kB].</a><br><br>
+ Change log:
+ - Initial public release.
+
+
+@subsection License
+This project is placed under public domain as outlined below.
+
+@verbatim
+THIS WORK, INCLUDING THE SOURCE CODE, DOCUMENTATION
+AND RELATED MEDIA AND DATA, IS PLACED INTO THE PUBLIC DOMAIN.
+
+THE ORIGINAL AUTHOR IS ANDERS NISSEN.
+
+THIS SOFTWARE IS PROVIDED AS-IS WITHOUT WARRANTY
+OF ANY KIND, NOT EVEN THE IMPLIED WARRANTY OF
+MERCHANTABILITY. THE AUTHOR OF THIS SOFTWARE,
+ASSUMES _NO_ RESPONSIBILITY FOR ANY CONSEQUENCE
+RESULTING FROM THE USE, MODIFICATION, OR
+REDISTRIBUTION OF THIS SOFTWARE.
+@endverbatim
+
+
+@subsection ssContact Contact Information
+<i>Anders Nissen</i>\n
+@b Mail: Anders_Nis@hotmail.com\n
+@b Blog: www.AndersNissen.com\n
+*/

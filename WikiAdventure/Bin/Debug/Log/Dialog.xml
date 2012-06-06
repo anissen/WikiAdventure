@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl" ?>
+
+<!-- WikiDialog Reader Dialog Blocks XML -->
+<!-- Created by XMLLogger -->
+
+<DialogBlocks>
+	<DialogBlock>
+		<DialogID>Shop01</DialogID>
+		<Speaker>Shopkeeper John</Speaker>
+		<MainPage>[Not logged at this moment]</MainPage>
+		<SubPage>[Not logged at this moment]</SubPage>
+		<SpeakerID>Shopkeeper John</SpeakerID>
+		<Dialogs>
+			<Dialog>
+				<SpeakerID>Shopkeeper John</SpeakerID>
+				<DialogText>Hi, can I help you?</DialogText>
+				<OnLoad></OnLoad>
+				<OnAfter></OnAfter>
+				<SpeakerID></SpeakerID>
+				<Dialogs>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>Yes, I would like to have a look at your wares.</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+						<SpeakerID></SpeakerID>
+						<Dialogs>
+							<Dialog>
+								<SpeakerID></SpeakerID>
+								<DialogText>[Show wares]</DialogText>
+								<OnLoad></OnLoad>
+								<OnAfter></OnAfter>
+							</Dialog>
+						</Dialogs>
+					</Dialog>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>Perhabs, what do you sell here?</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+						<SpeakerID></SpeakerID>
+						<Dialogs>
+							<Dialog>
+								<SpeakerID></SpeakerID>
+								<DialogText>I've got everything in modern personal security equipment; amour, weapons, shields, bows, you name it!</DialogText>
+								<OnLoad></OnLoad>
+								<OnAfter></OnAfter>
+								<SpeakerID></SpeakerID>
+								<Dialogs>
+									<Dialog>
+										<SpeakerID></SpeakerID>
+										<DialogText>Great, let me have a look.</DialogText>
+										<OnLoad></OnLoad>
+										<OnAfter></OnAfter>
+										<SpeakerID></SpeakerID>
+										<Dialogs>
+											<Dialog>
+												<SpeakerID></SpeakerID>
+												<DialogText>[Show wares]</DialogText>
+												<OnLoad></OnLoad>
+												<OnAfter></OnAfter>
+											</Dialog>
+										</Dialogs>
+									</Dialog>
+									<Dialog>
+										<SpeakerID></SpeakerID>
+										<DialogText>Not interested.</DialogText>
+										<OnLoad></OnLoad>
+										<OnAfter></OnAfter>
+										<SpeakerID></SpeakerID>
+										<Dialogs>
+											<Dialog>
+												<SpeakerID></SpeakerID>
+												<DialogText>Okay, some other time maybe?"</DialogText>
+												<OnLoad></OnLoad>
+												<OnAfter></OnAfter>
+											</Dialog>
+										</Dialogs>
+									</Dialog>
+								</Dialogs>
+							</Dialog>
+						</Dialogs>
+					</Dialog>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>Have you got any muscle tasks?</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+						<SpeakerID></SpeakerID>
+						<Dialogs>
+							<Dialog>
+								<SpeakerID></SpeakerID>
+								<DialogText>Not that I can think of no. But come by from time to time, I sometimes have some jobs that require more muscle than I can muster. </DialogText>
+								<OnLoad> If Stregth = Weak then HideDialog </OnLoad>
+								<OnAfter> Print "All that talk about muscle has made you hungry." </OnAfter>
+								<SpeakerID></SpeakerID>
+								<Dialogs>
+									<Dialog>
+										<SpeakerID></SpeakerID>
+										<DialogText>Okay, will do.</DialogText>
+										<OnLoad></OnLoad>
+										<OnAfter></OnAfter>
+									</Dialog>
+								</Dialogs>
+							</Dialog>
+						</Dialogs>
+					</Dialog>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>No, thanks.</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+					</Dialog>
+				</Dialogs>
+			</Dialog>
+		</Dialogs>
+	</DialogBlock>
+	<DialogBlock>
+		<DialogID>SubpageTalk01</DialogID>
+		<Speaker>Dr. Evil</Speaker>
+		<MainPage>[Not logged at this moment]</MainPage>
+		<SubPage>[Not logged at this moment]</SubPage>
+		<SpeakerID>Dr. Evil</SpeakerID>
+		<Dialogs>
+			<Dialog>
+				<SpeakerID>Dr. Evil</SpeakerID>
+				<DialogText>You!?</DialogText>
+				<OnLoad></OnLoad>
+				<OnAfter></OnAfter>
+				<SpeakerID></SpeakerID>
+				<Dialogs>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>Yeah, it's me.</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+						<SpeakerID></SpeakerID>
+						<Dialogs>
+							<Dialog>
+								<SpeakerID></SpeakerID>
+								<DialogText>But how did you manage to the vulcanous island where I tied you to an almost entirely not rotten tree with chains with only a few weak links?!</DialogText>
+								<OnLoad></OnLoad>
+								<OnAfter></OnAfter>
+								<SpeakerID></SpeakerID>
+								<Dialogs>
+									<Dialog>
+										<SpeakerID></SpeakerID>
+										<DialogText>Oh that. You see, first I ... [2 hours later]... and that was how I escaped!</DialogText>
+										<OnLoad></OnLoad>
+										<OnAfter>Print "You notice that Dr. Evil has manage to escape during your long monologe."</OnAfter>
+									</Dialog>
+									<Dialog>
+										<SpeakerID></SpeakerID>
+										<DialogText>You have failed to kill me with almost escape-proof schemes for the last time, Evil!</DialogText>
+										<OnLoad></OnLoad>
+										<OnAfter></OnAfter>
+										<SpeakerID></SpeakerID>
+										<Dialogs>
+											<Dialog>
+												<SpeakerID></SpeakerID>
+												<DialogText>You'll have to catch me first! [Flies away in escape pos]</DialogText>
+												<OnLoad></OnLoad>
+												<OnAfter>Print "Oh bugger, not again!"</OnAfter>
+											</Dialog>
+										</Dialogs>
+									</Dialog>
+									<Dialog>
+										<SpeakerID></SpeakerID>
+										<DialogText>Let's just be friends and everything will be peaceful.</DialogText>
+										<OnLoad></OnLoad>
+										<OnAfter></OnAfter>
+										<SpeakerID></SpeakerID>
+										<Dialogs>
+											<Dialog>
+												<SpeakerID></SpeakerID>
+												<DialogText>Huh?! Oh yes, indeed!</DialogText>
+												<OnLoad></OnLoad>
+												<OnAfter></OnAfter>
+											</Dialog>
+										</Dialogs>
+									</Dialog>
+								</Dialogs>
+							</Dialog>
+						</Dialogs>
+					</Dialog>
+				</Dialogs>
+			</Dialog>
+		</Dialogs>
+	</DialogBlock>
+	<DialogBlock>
+		<DialogID>Talking a bit with Homer and his badly behaving son</DialogID>
+		<Speaker>Homer/Bart</Speaker>
+		<MainPage>[Not logged at this moment]</MainPage>
+		<SubPage>[Not logged at this moment]</SubPage>
+		<SpeakerID>Homer/Bart</SpeakerID>
+		<Dialogs>
+			<Dialog>
+				<SpeakerID>Homer/Bart</SpeakerID>
+				<DialogText>Walk up to Homer.  Homer: Hello, there.</DialogText>
+				<OnLoad></OnLoad>
+				<OnAfter></OnAfter>
+				<SpeakerID></SpeakerID>
+				<Dialogs>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>Where is Moe's tavern?  Homer: Just two blocks south from here.</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+						<SpeakerID></SpeakerID>
+						<Dialogs>
+							<Dialog>
+								<SpeakerID></SpeakerID>
+								<DialogText>How much does a Guinness cost there?  Homer: Don't know, I never drink that stuff.</DialogText>
+								<OnLoad></OnLoad>
+								<OnAfter></OnAfter>
+							</Dialog>
+							<Dialog>
+								<SpeakerID></SpeakerID>
+								<DialogText>How much does a Duff cost there?  Homer: 3 bucks, man.</DialogText>
+								<OnLoad></OnLoad>
+								<OnAfter></OnAfter>
+							</Dialog>
+							<Dialog>
+								<SpeakerID></SpeakerID>
+								<DialogText>OK, that's enough about Moe's tavern for now.  Homer: Alright. end topic</DialogText>
+								<OnLoad></OnLoad>
+								<OnAfter></OnAfter>
+							</Dialog>
+						</Dialogs>
+					</Dialog>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>I'm afraid Bart has caused some trouble in school.  Homer: D'oh.</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+					</Dialog>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>Goodbye Homer.  Homer: Bye.</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+					</Dialog>
+				</Dialogs>
+			</Dialog>
+			<Dialog>
+				<SpeakerID>Homer/Bart</SpeakerID>
+				<DialogText>Walk up to Bart. Bart: Whacha want?</DialogText>
+				<OnLoad></OnLoad>
+				<OnAfter></OnAfter>
+				<SpeakerID></SpeakerID>
+				<Dialogs>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>Just looking a little around that's all. Bart: Well, you can do that out of my room!</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+						<SpeakerID></SpeakerID>
+						<Dialogs>
+							<Dialog>
+								<SpeakerID></SpeakerID>
+								<DialogText>Can I see your Crusty The Clown™ toys? Bart: Nope, I won't have you fingering my exclusive collection!</DialogText>
+								<OnLoad></OnLoad>
+								<OnAfter></OnAfter>
+								<SpeakerID></SpeakerID>
+								<Dialogs>
+									<Dialog>
+										<SpeakerID></SpeakerID>
+										<DialogText>Okay, then. Got anything else I can play with? Bart: Stop bugging me!</DialogText>
+										<OnLoad></OnLoad>
+										<OnAfter></OnAfter>
+									</Dialog>
+								</Dialogs>
+							</Dialog>
+						</Dialogs>
+					</Dialog>
+					<Dialog>
+						<SpeakerID></SpeakerID>
+						<DialogText>I'm leaving! Bart: See ya.</DialogText>
+						<OnLoad></OnLoad>
+						<OnAfter></OnAfter>
+					</Dialog>
+				</Dialogs>
+			</Dialog>
+			<Dialog>
+				<SpeakerID>Homer/Bart</SpeakerID>
+				<DialogText>Do nothing.</DialogText>
+				<OnLoad></OnLoad>
+				<OnAfter></OnAfter>
+			</Dialog>
+		</Dialogs>
+	</DialogBlock>
+</DialogBlocks>

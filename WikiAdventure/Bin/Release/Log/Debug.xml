@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="debug-stylesheet.xsl" ?>
+
+<!-- Created by XMLLogger -->
+
+<Project>
+	<Name>WikiDialog Reader</Name>
+	<MainSourceDir>Source\Project</MainSourceDir>
+	<Compiled>Jul 19 2005 20:55:49</Compiled>
+	<CmdArguments>
+		<CmdArgument>e:\C++ Projekter\WikiAdventure\WikiAdventure\Bin\Release\WikiAdventure.exe</CmdArgument>
+		<CmdArgument>wikireader://</CmdArgument>
+	</CmdArguments>
+	<LogEntries>
+		<LogEntry>
+			<ClassName></ClassName>
+			<FuncName>main</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:24 2005</Timestamp>
+			<Info>Application directory: e:\C++ Projekter\WikiAdventure\WikiAdventure\Bin\Release</Info>
+			<File>Main.cpp</File>
+			<Line>57</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName></ClassName>
+			<FuncName>main</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:24 2005</Timestamp>
+			<Info>Website URL: </Info>
+			<File>Main.cpp</File>
+			<Line>61</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CGameHandler</ClassName>
+			<FuncName>CGameHandler</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:26 2005</Timestamp>
+			<Info>Creating game handle..</Info>
+			<File>GameHandler.cpp</File>
+			<Line>8</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:26 2005</Timestamp>
+			<Info>Initiating download. Web page URL is http://www.gpwiki.org/index.php?title=Community_Projects:WikiAdventure:Games</Info>
+			<File>WebPage.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:26 2005</Timestamp>
+			<Info>Web page successfully downloaded.</Info>
+			<File>WebPage.cpp</File>
+			<Line>54</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CGameHandler</ClassName>
+			<FuncName>CGameHandler</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:28 2005</Timestamp>
+			<Info>Creating game handle..</Info>
+			<File>GameHandler.cpp</File>
+			<Line>8</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CGameHandler</ClassName>
+			<FuncName>~CGameHandler</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:28 2005</Timestamp>
+			<Info>Unloading game handler, clearing allocated resources.</Info>
+			<File>GameHandler.cpp</File>
+			<Line>14</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CGameHandler</ClassName>
+			<FuncName>~CGameHandler</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:28 2005</Timestamp>
+			<Info>Unloading game handler, finished. Bye!</Info>
+			<File>GameHandler.cpp</File>
+			<Line>25</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:28 2005</Timestamp>
+			<Info>Initiating download. Web page URL is http://www.gpwiki.org/index.php?title=Community_Projects:WikiAdventure:Games:Test Game</Info>
+			<File>WebPage.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:29 2005</Timestamp>
+			<Info>Web page successfully downloaded.</Info>
+			<File>WebPage.cpp</File>
+			<Line>54</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CGameObject</ClassName>
+			<FuncName>CGameObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:29 2005</Timestamp>
+			<Info>Creating game.</Info>
+			<File>GameObject.cpp</File>
+			<Line>7</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:29 2005</Timestamp>
+			<Info>Initiating download. Web page URL is </Info>
+			<File>WebPage.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:31 2005</Timestamp>
+			<Info>Web page successfully downloaded.</Info>
+			<File>WebPage.cpp</File>
+			<Line>54</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadFile</FuncName>
+			<DebugType>Warning</DebugType>
+			<Timestamp>Tue Jul 19 21:34:31 2005</Timestamp>
+			<Info>A file with the same name already exist.</Info>
+			<File>WebPage.cpp</File>
+			<Line>75</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:31 2005</Timestamp>
+			<Info>Initiating download. Web page URL is </Info>
+			<File>WebPage.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:32 2005</Timestamp>
+			<Info>Web page successfully downloaded.</Info>
+			<File>WebPage.cpp</File>
+			<Line>54</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadFile</FuncName>
+			<DebugType>Warning</DebugType>
+			<Timestamp>Tue Jul 19 21:34:32 2005</Timestamp>
+			<Info>A file with the same name already exist.</Info>
+			<File>WebPage.cpp</File>
+			<Line>75</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:32 2005</Timestamp>
+			<Info>Initiating download. Web page URL is </Info>
+			<File>WebPage.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:33 2005</Timestamp>
+			<Info>Web page successfully downloaded.</Info>
+			<File>WebPage.cpp</File>
+			<Line>54</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadFile</FuncName>
+			<DebugType>Warning</DebugType>
+			<Timestamp>Tue Jul 19 21:34:33 2005</Timestamp>
+			<Info>A file with the same name already exist.</Info>
+			<File>WebPage.cpp</File>
+			<Line>75</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:34 2005</Timestamp>
+			<Info>Initiating download. Web page URL is </Info>
+			<File>WebPage.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:34 2005</Timestamp>
+			<Info>Web page successfully downloaded.</Info>
+			<File>WebPage.cpp</File>
+			<Line>54</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadFile</FuncName>
+			<DebugType>Warning</DebugType>
+			<Timestamp>Tue Jul 19 21:34:35 2005</Timestamp>
+			<Info>A file with the same name already exist.</Info>
+			<File>WebPage.cpp</File>
+			<Line>75</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:35 2005</Timestamp>
+			<Info>Creating location.</Info>
+			<File>LocationObject.cpp</File>
+			<Line>6</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:35 2005</Timestamp>
+			<Info>Initiating download. Web page URL is http://www.gpwiki.org/index.php?title=Community_Projects:WikiAdventure:Games:Test Game:Location02</Info>
+			<File>WebPage.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:35 2005</Timestamp>
+			<Info>Web page successfully downloaded.</Info>
+			<File>WebPage.cpp</File>
+			<Line>54</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:36 2005</Timestamp>
+			<Info>Creating location.</Info>
+			<File>LocationObject.cpp</File>
+			<Line>6</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:37 2005</Timestamp>
+			<Info>Initiating download. Web page URL is http://www.gpwiki.org/index.php?title=Community_Projects:WikiAdventure:Games:Test Game:Location01</Info>
+			<File>WebPage.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CWebPage</ClassName>
+			<FuncName>DownloadWebPage</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:37 2005</Timestamp>
+			<Info>Web page successfully downloaded.</Info>
+			<File>WebPage.cpp</File>
+			<Line>54</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CGameHandler</ClassName>
+			<FuncName>~CGameHandler</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Unloading game handler, clearing allocated resources.</Info>
+			<File>GameHandler.cpp</File>
+			<Line>14</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CGameObject</ClassName>
+			<FuncName>~CGameObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Unloading game, clearing allocated resources.</Info>
+			<File>GameObject.cpp</File>
+			<Line>16</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationHandler</ClassName>
+			<FuncName>~CLocationHandler</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Deleting location with ID "Location01".</Info>
+			<File>LocationHandler.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>~CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Unloading location.</Info>
+			<File>LocationObject.cpp</File>
+			<Line>14</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>~CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Deleting dialog with ID "Shop01".</Info>
+			<File>DialogHandler.cpp</File>
+			<Line>17</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>~CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Deleting item with ID "NiceItem01".</Info>
+			<File>ItemHandler.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>~CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Deleting item with ID "NiceItem02".</Info>
+			<File>ItemHandler.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationHandler</ClassName>
+			<FuncName>~CLocationHandler</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Deleting location with ID "Location02".</Info>
+			<File>LocationHandler.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>~CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Unloading location.</Info>
+			<File>LocationObject.cpp</File>
+			<Line>14</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>~CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Deleting dialog with ID "RandomDialog01".</Info>
+			<File>DialogHandler.cpp</File>
+			<Line>17</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>~CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Deleting dialog with ID "RandomDialog02".</Info>
+			<File>DialogHandler.cpp</File>
+			<Line>17</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>~CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Deleting item with ID "AnotherItem".</Info>
+			<File>ItemHandler.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CLocationObject</ClassName>
+			<FuncName>~CLocationObject</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Deleting item with ID "[No ID]".</Info>
+			<File>ItemHandler.cpp</File>
+			<Line>21</Line>
+		</LogEntry>
+		<LogEntry>
+			<ClassName>CGameHandler</ClassName>
+			<FuncName>~CGameHandler</FuncName>
+			<DebugType>Info</DebugType>
+			<Timestamp>Tue Jul 19 21:34:40 2005</Timestamp>
+			<Info>Unloading game handler, finished. Bye!</Info>
+			<File>GameHandler.cpp</File>
+			<Line>25</Line>
+		</LogEntry>
+	</LogEntries>
+</Project>

@@ -1,0 +1,48 @@
+string = 
+{
+}
+
+
+Location = "Location01"
+os = 
+{
+}
+
+
+wstring = 
+{
+}
+
+
+io = 
+{
+}
+
+
+_LOADED = 
+{
+}
+
+
+math = 
+{
+	pi = 3.1415926535898,
+}
+
+
+debug = 
+{
+}
+
+
+table = 
+{
+}
+
+
+coroutine = 
+{
+}
+
+
+_VERSION = "Lua 5.0.1"

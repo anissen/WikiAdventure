@@ -1,0 +1,52 @@
+os = 
+{
+}
+
+
+io = 
+{
+}
+
+
+Location = "Location02"
+coroutine = 
+{
+}
+
+
+bTalkedToJohn = true
+string = 
+{
+}
+
+
+_VERSION = "Lua 5.0.1"
+table = 
+{
+}
+
+
+bCanStartNextLocation = true
+wstring = 
+{
+}
+
+
+bAskedAboutWeapons = true
+bAskedAboutMuscleTasks = true
+math = 
+{
+	pi = 3.1415926535898,
+}
+
+
+_LOADED = 
+{
+}
+
+
+debug = 
+{
+}
+
+
